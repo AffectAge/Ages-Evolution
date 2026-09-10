@@ -1,0 +1,56 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:smooth_sandstone"
+    },
+    {
+      "stack": "item:minecraft:warped_hyphae"
+    },
+    {
+      "stack": "item:minecraft:warped_fence"
+    },
+    {
+      "stack": "item:minecraft:bricks"
+    },
+    {
+      "stack": "item:minecraft:weathered_copper"
+    },
+    {
+      "stack": "item:minecraft:waxed_copper_block"
+    },
+    {
+      "stack": "item:minecraft:waxed_weathered_copper_trapdoor"
+    },
+    {
+      "stack": "item:minecraft:polished_blackstone_pressure_plate"
+    },
+    {
+      "stack": "item:minecraft:red_sandstone_wall"
+    },
+    {
+      "stack": "item:minecraft:brick_wall"
+    },
+    {
+      "stack": "item:minecraft:chiseled_nether_bricks"
+    },
+    {
+      "stack": "item:minecraft:polished_blackstone_wall"
+    }
+  ],
+  "lookup_history": [
+    "item:minecraft:bamboo_mosaic_stairs",
+    "item:minecraft:chiseled_tuff",
+    "item:minecraft:gilded_blackstone",
+    "item:minecraft:cobbled_deepslate_wall",
+    "item:minecraft:diorite",
+    "item:minecraft:bamboo_door"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

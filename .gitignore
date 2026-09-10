@@ -1,0 +1,9 @@
+/bin
+/logs
+/downloads
+/saves
+usercache.json
+usernamecache.json
+options.txt
+/fancymenu_data
+/crash-reports

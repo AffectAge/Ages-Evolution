@@ -1,0 +1,6 @@
+{
+  "idle": {
+    "timeout": 900,
+    "condition": "none"
+  }
+}
