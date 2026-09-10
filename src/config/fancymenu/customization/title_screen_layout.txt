@@ -12,7 +12,6 @@ layout-meta {
   [loading_requirement_container_meta:ages-evolution-main] = [groups:][instances:]
 }
 
-# Dark animated background. FancyMenu provides this background type without requiring an image asset.
 menu_background {
   color = #080B10
   background_type = drippy_color_background
@@ -36,10 +35,6 @@ scroll_list_customization {
 
 layout_action_executable_blocks {
 }
-
-# -----------------------------------------------------------------------------
-# BRANDING
-# -----------------------------------------------------------------------------
 
 element {
   source = AGES EVOLUTION
@@ -116,10 +111,6 @@ element {
   element_loading_requirement_container_identifier = ages_evolution_subtitle_req
   [loading_requirement_container_meta:ages_evolution_subtitle_req] = [groups:][instances:]
 }
-
-# -----------------------------------------------------------------------------
-# MAIN MENU BUTTONS — LEFT SIDE
-# -----------------------------------------------------------------------------
 
 element {
   button_element_executable_block_identifier = ages_evolution_singleplayer_block
@@ -262,10 +253,6 @@ element {
   [loading_requirement_container_meta:ages_evolution_mods_req] = [groups:][instances:]
 }
 
-# -----------------------------------------------------------------------------
-# GITHUB UPDATE PANEL — RIGHT SIDE
-# -----------------------------------------------------------------------------
-
 element {
   source = {"placeholder":"webtext","values":{"link":"https://raw.githubusercontent.com/AffectAge/Ages-Evolution/main/src/config/fancymenu/assets/ages-evolution-feed.md"}}
   source_mode = direct
@@ -291,7 +278,7 @@ element {
   parse_markdown = true
   element_type = text_v2
   instance_identifier = ages_evolution_github_feed
-  appearance_delay = 250_ms
+  appearance_delay = no_delay
   appearance_delay_seconds = 0.25
   fade_in_v2 = fading
   fade_in_speed = 2.0
@@ -314,9 +301,43 @@ element {
   [loading_requirement_container_meta:ages_evolution_github_feed_req] = [groups:][instances:]
 }
 
-# -----------------------------------------------------------------------------
-# SETTINGS / QUIT — BOTTOM LEFT
-# -----------------------------------------------------------------------------
+element {
+  source = **SYSTEM**  `ONLINE`  |  MC `{"placeholder":"mcversion"}`  |  `{"placeholder":"loadername"}` `{"placeholder":"loaderver"}`  |  MODS `{"placeholder":"loadedmods"}`
+  source_mode = direct
+  shadow = false
+  scale = 0.68
+  alignment = left
+  text_border = 0
+  line_spacing = 1
+  enable_scrolling = false
+  auto_line_wrapping = false
+  remove_html_breaks = true
+  base_color = #7890A8FF
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = ages_evolution_telemetry
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 0.9
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = bottom-left
+  x = 78
+  y = -10
+  width = 620
+  height = 16
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = ages_evolution_telemetry_req
+  [loading_requirement_container_meta:ages_evolution_telemetry_req] = [groups:][instances:]
+}
 
 vanilla_button {
   button_element_executable_block_identifier = ages_evolution_options_block
@@ -380,12 +401,8 @@ vanilla_button {
   automated_button_clicks = 0
 }
 
-# -----------------------------------------------------------------------------
-# FOOTER
-# -----------------------------------------------------------------------------
-
 element {
-  source = AGES EVOLUTION  |  v.1.21.1  |  GITHUB RELEASE FEED
+  source = AGES EVOLUTION  |  MC {"placeholder":"mcversion"}  |  GITHUB RELEASE FEED
   source_mode = direct
   shadow = true
   scale = 0.65
