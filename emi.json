@@ -38,6 +38,15 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:flow_armor_trim_smithing_template",
+    "item:minecraft:piglin_banner_pattern",
+    "item:minecraft:mojang_banner_pattern",
+    "item:minecraft:lingering_potion{\"minecraft:potion_contents\":{potion:\"minecraft:mundane\"}}",
+    "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:strong_leaping\"}}",
+    "item:minecraft:disc_fragment_5",
+    "item:minecraft:snort_pottery_sherd",
+    "mob_effect:minecraft:darkness",
+    "mob_effect:minecraft:raid_omen",
     "item:minecraft:bamboo_mosaic_stairs",
     "item:minecraft:chiseled_tuff",
     "item:minecraft:gilded_blackstone",
