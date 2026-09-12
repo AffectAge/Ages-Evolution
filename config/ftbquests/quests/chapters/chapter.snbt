@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon3"
 	filename: "chapter"
 	group: "013A70CF51294EC1"
 	id: "4D1703684F39ECA6"
@@ -28,6 +28,39 @@
 			}]
 			x: -11.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["0DA99142495D57F7"]
+			id: "7CF274F9A5BA445A"
+			tasks: [{
+				id: "3414A37FC03F0C73"
+				item: { count: 1, id: "minecraft:birch_slab" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["062166098A4AD717"]
+			id: "0CD20F6FCD9315D8"
+			tasks: [{
+				id: "2134E1967A08776E"
+				item: { count: 1, id: "minecraft:spruce_slab" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CD20F6FCD9315D8"]
+			id: "41D1BC2078F7DEA6"
+			tasks: [{
+				id: "6CDF9C6216D33FFE"
+				item: { count: 1, id: "minecraft:birch_door" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
 		}
 	]
 }

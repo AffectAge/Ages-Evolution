@@ -1,0 +1,40 @@
+{
+	"backgroundImage": [
+		"jade:textures/gui/revival.png",
+		4,
+		4,
+		4,
+		4,
+		64,
+		64,
+		0,
+		0
+	],
+	"titleColor": "#009A0A",
+	"normalColor": "#444444",
+	"infoColor": "#D670FF",
+	"successColor": "#009A0A",
+	"warningColor": "#FFC107",
+	"dangerColor": "#DC3545",
+	"failureColor": "#AB296A",
+	"boxBorderColor": "#009A0A",
+	"textShadow": false,
+	"padding": [
+		6,
+		4,
+		0,
+		5
+	],
+	"opacity": 0.8,
+	"squareBorder": false,
+	"autoEnable": true,
+	"bottomProgressOffset": [
+		-3,
+		-2,
+		-1,
+		2
+	],
+	"bottomProgressNormalColor": "#009A0A",
+	"bottomProgressFailureColor": "#FF4444",
+	"lightColorScheme": true
+}
