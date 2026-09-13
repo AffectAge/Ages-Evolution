@@ -1,0 +1,33 @@
+[cost]
+items = ["minecraft:dragon_breath:16"]
+xp_levels = 30
+cooldown = "2s"
+refund_percent = 100
+bypass_requirements = false
+
+[rewards]
+items = ["minecraft:nether_star:1", "minecraft:experience_bottle:32"]
+xp_levels = 30
+
+[[variables]]
+id = "showcase:grandmaster/mastery_points"
+type = "counter"
+scope = "team"
+default = 0
+minimum = 0
+maximum = 100
+persistent = true
+sync_visible = true
+
+[formulas]
+mastery_score = "mastery_points * 10"
+
+[states]
+values = ["missing", "available", "owned", "completed"]
+ownership_states = ["owned", "completed"]
+initial = "missing"
+
+[states.transitions]
+missing = ["available"]
+available = ["owned"]
+owned = ["completed"]

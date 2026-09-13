@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_interactions_1432500955"
+effect = "lock"
+action = "item_on_entity"
+priority = 326
+targets.interactions = ["minecraft:spectral_arrow"]

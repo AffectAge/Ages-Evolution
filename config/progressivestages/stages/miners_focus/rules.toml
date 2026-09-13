@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:miners_focus/speed"
+items = ["tag:minecraft:pickaxes"]
+contexts = ["either_hand"]
+with_stages = ["showcase:miners_focus"]
+priority = 811
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.movement_speed"
+amount = 0.06
+operation = "add_value"

@@ -1,0 +1,21 @@
+[[challenges]]
+id = "showcase:wither_protocol/trial"
+title = "Wither protocol"
+start_when = { type = "boss_session", id = "minecraft:wither" }
+success_when = { type = "kill", id = "minecraft:wither" }
+max_hits = 6
+boss = "minecraft:wither"
+timeout = "10m"
+retries = 3
+
+[challenges.hud]
+enabled = true
+placement = "top"
+color = "gold"
+icon = "minecraft:nether_star"
+animation = "pulse"
+[[grants]]
+id = "showcase:grant_kill_wither_2"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:wither", count = 2 }

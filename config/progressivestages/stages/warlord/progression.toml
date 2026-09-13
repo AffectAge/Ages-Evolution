@@ -1,0 +1,21 @@
+[[challenges]]
+id = "showcase:warlord/ravager_trial"
+title = "Ravager trial"
+start_when = { type = "boss_session", id = "minecraft:ravager" }
+success_when = { type = "kill", id = "minecraft:ravager" }
+max_hits = 4
+boss = "minecraft:ravager"
+timeout = "8m"
+retries = 3
+
+[challenges.hud]
+enabled = true
+placement = "top"
+color = "gold"
+icon = "minecraft:saddle"
+animation = "pulse"
+[[grants]]
+id = "showcase:grant_kill_ravager_4"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:ravager", count = 4 }

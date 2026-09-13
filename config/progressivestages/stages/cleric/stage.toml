@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:cleric"
+display_name = "Cleric"
+description = "Evolve Mage into healing brewing and team support."
+icon = "minecraft:brewing_stand"
+dependencies = ["showcase:mage"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#ef78a7"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

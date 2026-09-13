@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:marksman/mobility"
+items = ["minecraft:crossbow"]
+contexts = ["either_hand"]
+with_stages = ["showcase:marksman"]
+priority = 265
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.movement_speed"
+amount = 0.03
+operation = "add_value"

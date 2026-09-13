@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:stronghold_key"
+display_name = "Stronghold Key"
+description = "Earn structure access by carrying twelve Eyes of Ender."
+icon = "minecraft:ender_eye"
+dependencies = ["showcase:pathfinder"]
+dependency_mode = "all"
+dependency_count = 1
+category = "World rules"
+color = "#8c8c6a"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "world", "world_rules"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

@@ -1,0 +1,8 @@
+[[temporary_rules]]
+id = "showcase:warlock/nether_focus"
+effect = "allow"
+lifetime = "live"
+action = "use"
+priority = 450
+targets.items = ["minecraft:ender_pearl"]
+while = { type = "dimension", id = "minecraft:the_nether" }

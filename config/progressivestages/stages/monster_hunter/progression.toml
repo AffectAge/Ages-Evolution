@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_kill_elder_guardian_2"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:elder_guardian", count = 2 }
+
+[rewards]
+items = ["minecraft:prismarine_shard:32"]
+xp_levels = 8

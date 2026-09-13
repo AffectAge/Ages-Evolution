@@ -1,0 +1,17 @@
+[[item_modifiers]]
+id = "showcase:knight/armor"
+items = ["tag:minecraft:chest_armor"]
+contexts = ["equipment"]
+with_stages = ["showcase:knight"]
+priority = 262
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.armor"
+amount = 2.0
+operation = "add_value"
+[[rules]]
+id = "showcase:lock_curios_1006921905"
+effect = "lock"
+action = "equip"
+priority = 263
+targets.curios = ["minecraft:body"]

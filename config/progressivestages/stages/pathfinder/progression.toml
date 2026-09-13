@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_enter_structure_mineshaft_1"
+repeat = "once"
+scope = "player"
+condition = { type = "enter_structure", id = "minecraft:mineshaft", count = 1 }
+
+[rewards]
+items = ["minecraft:echo_shard:4"]
+xp_levels = 6

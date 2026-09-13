@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:shadow_scout"
+display_name = "Shadow Scout"
+description = "A secret hybrid revealed only after eight exact shulker kills."
+icon = "minecraft:ender_pearl"
+dependencies = ["showcase:warlock", "showcase:scout"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#635779"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "unlocked"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

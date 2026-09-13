@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:silk_mode/control"
+items = ["tag:minecraft:pickaxes"]
+contexts = ["either_hand"]
+with_stages = ["showcase:silk_mode"]
+priority = 751
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.movement_speed"
+amount = 0.01
+operation = "add_value"

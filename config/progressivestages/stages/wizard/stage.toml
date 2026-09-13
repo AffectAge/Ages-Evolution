@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:wizard"
+display_name = "Wizard"
+description = "Evolve Mage through disciplined enchanting and spell tools."
+icon = "minecraft:enchanted_book"
+dependencies = ["showcase:mage"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#9e70ff"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

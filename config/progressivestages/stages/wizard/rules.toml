@@ -1,0 +1,8 @@
+[[rules]]
+id = "showcase:lock_blocks_319164197"
+effect = "lock"
+action = "interact"
+priority = 260
+targets.blocks = ["minecraft:enchanting_table"]
+[recipes]
+locked_items = ["minecraft:enchanting_table"]

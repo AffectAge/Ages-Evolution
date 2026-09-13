@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_kill_evoker_1"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:evoker", count = 1 }
+
+[rewards]
+items = ["minecraft:ender_pearl:8"]
+xp_levels = 3

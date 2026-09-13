@@ -1,0 +1,12 @@
+[[rules]]
+id = "showcase:lock_structures_1686881087"
+effect = "lock"
+action = "enter"
+priority = 328
+targets.structures = ["minecraft:ancient_city"]
+[[rules]]
+id = "showcase:lock_regions_160127696"
+effect = "lock"
+action = "enter"
+priority = 329
+targets.regions = ["showcase:ancient_city_ring"]

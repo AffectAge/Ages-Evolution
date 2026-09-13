@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:warlord"
+display_name = "Warlord"
+description = "Master Berserker through a timed limited boss trial."
+icon = "minecraft:netherite_axe"
+dependencies = ["showcase:berserker"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#9b302b"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

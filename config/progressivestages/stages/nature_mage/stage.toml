@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:nature_mage"
+display_name = "Nature Mage"
+description = "Merge Cleric and Wildspeaker for growth support."
+icon = "minecraft:flowering_azalea"
+dependencies = ["showcase:cleric", "showcase:wildspeaker"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#8ebc79"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_craft_golden_carrot_16"
+repeat = "once"
+scope = "player"
+condition = { type = "craft", id = "minecraft:golden_carrot", count = 16 }
+
+[rewards]
+items = ["minecraft:flowering_azalea:4"]
+xp_levels = 5

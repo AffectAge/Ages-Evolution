@@ -1,0 +1,13 @@
+[[grants]]
+id = "showcase:grant_kill_ender_dragon_1"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:ender_dragon", count = 1 }
+
+[rewards]
+items = ["minecraft:dragon_breath:8"]
+xp_levels = 12
+
+[revoke]
+on_death = true
+revoke_cascade = false

@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:miners_focus"
+display_name = "Miners Focus"
+description = "A fifteen minute mining movement buff earned by mining iron and revoked on death or expiry."
+icon = "minecraft:golden_pickaxe"
+dependencies = ["showcase:coal_engineer"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Temporary power"
+color = "#d7ad3b"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = "15m"
+hidden = false
+scope = "team"
+tags = ["showcase", "temporary", "temporary_power"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

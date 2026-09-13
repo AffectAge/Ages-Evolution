@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:vanguard/health"
+items = ["tag:minecraft:chest_armor"]
+contexts = ["equipment"]
+with_stages = ["showcase:vanguard"]
+priority = 323
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.max_health"
+amount = 6.0
+operation = "add_value"

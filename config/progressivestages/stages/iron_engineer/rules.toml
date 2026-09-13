@@ -1,0 +1,8 @@
+[[drop_modifiers]]
+id = "showcase:iron_engineer/iron_yield"
+blocks = ["tag:c:ores/iron"]
+drops = ["minecraft:raw_iron"]
+tools = ["tag:minecraft:pickaxes"]
+multiply = 1.5
+priority = 520
+exclusive = false

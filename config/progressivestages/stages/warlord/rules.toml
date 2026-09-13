@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:warlord/power"
+items = ["tag:minecraft:axes"]
+contexts = ["either_hand"]
+with_stages = ["showcase:warlord"]
+priority = 324
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.attack_damage"
+amount = 5.0
+operation = "add_value"

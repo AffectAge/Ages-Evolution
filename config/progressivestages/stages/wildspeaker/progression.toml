@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_tame_cat_5"
+repeat = "once"
+scope = "player"
+condition = { type = "tame", id = "minecraft:cat", count = 5 }
+
+[rewards]
+items = ["minecraft:golden_carrot:12"]
+xp_levels = 3

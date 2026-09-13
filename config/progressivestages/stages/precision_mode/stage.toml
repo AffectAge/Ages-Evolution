@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:precision_mode"
+display_name = "Precision Mode"
+description = "A one slot mode whose exclusive rule stops lower priority bonuses."
+icon = "minecraft:spyglass"
+dependencies = ["showcase:iron_engineer"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Mining modes"
+color = "#8fb9c5"
+slot_group = "mining_modes"
+slot_limit = 1
+slot_policy = "replace_oldest"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "specialist", "mining_modes"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

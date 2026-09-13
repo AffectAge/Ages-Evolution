@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:holy_ranger"
+display_name = "Holy Ranger"
+description = "Merge Templar and Scout into radiant exploration."
+icon = "minecraft:golden_carrot"
+dependencies = ["showcase:templar", "showcase:scout"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#d8bd5f"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

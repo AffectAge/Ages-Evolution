@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_advancements_1493508358"
+effect = "lock"
+action = "display"
+priority = 320
+targets.advancements = ["minecraft:end/dragon_egg"]

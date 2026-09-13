@@ -1,0 +1,5 @@
+[[grants]]
+id = "showcase:grant_craft_end_crystal_4"
+repeat = "once"
+scope = "player"
+condition = { type = "craft", id = "minecraft:end_crystal", count = 4 }

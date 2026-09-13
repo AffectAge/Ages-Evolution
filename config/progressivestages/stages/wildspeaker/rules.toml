@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_crops_183068595"
+effect = "lock"
+action = "grow"
+priority = 327
+targets.crops = ["minecraft:sweet_berry_bush"]

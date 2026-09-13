@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:pathfinder"
+display_name = "Pathfinder"
+description = "Master Scout through structures regions and travel."
+icon = "minecraft:filled_map"
+dependencies = ["showcase:scout"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#5f9673"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_craft_brewing_stand_1"
+repeat = "once"
+scope = "player"
+condition = { type = "craft", id = "minecraft:brewing_stand", count = 1 }
+
+[rewards]
+items = ["minecraft:glistering_melon_slice:8"]
+xp_levels = 4

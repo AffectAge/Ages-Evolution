@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:scout"
+display_name = "Scout"
+description = "Evolve Ranger through navigation screens and exploration."
+icon = "minecraft:spyglass"
+dependencies = ["showcase:ranger"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#76a982"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

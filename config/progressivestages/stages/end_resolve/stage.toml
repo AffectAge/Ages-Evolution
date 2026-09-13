@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:end_resolve"
+display_name = "End Resolve"
+description = "A hidden temporary End session power granted by the exact dragon kill trigger."
+icon = "minecraft:dragon_breath"
+dependencies = ["showcase:archmage"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Temporary power"
+color = "#8d67b5"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = "12m"
+hidden = true
+scope = "team"
+tags = ["showcase", "temporary", "temporary_power"]
+
+[display]
+frame = "challenge"
+reveal = "unlocked"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

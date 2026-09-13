@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_loot_1668843980"
+effect = "lock"
+action = "drop"
+priority = 913
+targets.loot = ["minecraft:entities/wither"]

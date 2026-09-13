@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_enchants_1202661717"
+effect = "lock"
+action = "table"
+priority = 210
+targets.enchants = ["minecraft:infinity"]

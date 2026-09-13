@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_screens_394536516"
+effect = "lock"
+action = "open"
+priority = 267
+targets.screens = ["minecraft:cartography_table"]

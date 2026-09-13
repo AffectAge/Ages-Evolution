@@ -1,0 +1,10 @@
+[[drop_modifiers]]
+id = "showcase:diamond_engineer/diamond_fortune"
+blocks = ["minecraft:diamond_ore", "minecraft:deepslate_diamond_ore"]
+drops = ["minecraft:diamond"]
+tools = ["tag:minecraft:pickaxes"]
+required_enchantment = "minecraft:fortune"
+minimum_enchantment_level = 1
+multiply = 2.0
+priority = 600
+exclusive = true

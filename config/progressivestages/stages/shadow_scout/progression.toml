@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_kill_shulker_8"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:shulker", count = 8 }
+
+[rewards]
+items = ["minecraft:shulker_shell:4"]
+xp_levels = 6

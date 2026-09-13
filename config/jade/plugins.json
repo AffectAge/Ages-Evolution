@@ -72,5 +72,9 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "progressivestages": {
+    "stage_lock": true,
+    "stage_lock_entity": true
   }
 }

@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:necromancer"
+display_name = "Necromancer"
+description = "A secret Warlock mastery revealed only after twenty five exact wither skeleton kills."
+icon = "minecraft:wither_skeleton_skull"
+dependencies = ["showcase:warlock"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#63336f"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "challenge"
+reveal = "unlocked"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

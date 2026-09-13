@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_pets_1006296065"
+effect = "lock"
+action = "tame"
+priority = 266
+targets.pets = ["minecraft:wolf"]

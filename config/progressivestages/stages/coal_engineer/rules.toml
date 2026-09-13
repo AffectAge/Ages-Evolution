@@ -1,0 +1,8 @@
+[[drop_modifiers]]
+id = "showcase:coal_engineer/coal_yield"
+blocks = ["tag:c:ores/coal"]
+drops = ["minecraft:coal"]
+tools = ["tag:minecraft:pickaxes"]
+multiply = 1.25
+priority = 510
+exclusive = false

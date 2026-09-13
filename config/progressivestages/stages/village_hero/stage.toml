@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:village_hero"
+display_name = "Village Hero"
+description = "A temporary trade reward granted by exact raid kills and revoked on death or expiry."
+icon = "minecraft:emerald"
+dependencies = ["showcase:cleric"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Temporary power"
+color = "#67ad58"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = "30m"
+hidden = false
+scope = "team"
+tags = ["showcase", "temporary", "temporary_power"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

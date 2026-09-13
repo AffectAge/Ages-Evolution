@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:grandmaster/health"
+items = ["minecraft:nether_star"]
+contexts = ["either_hand"]
+with_stages = ["showcase:grandmaster"]
+priority = 1000
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.max_health"
+amount = 10.0
+operation = "add_value"

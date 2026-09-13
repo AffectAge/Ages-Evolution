@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:wither_protocol"
+display_name = "Wither Protocol"
+description = "Showcase boss challenge loot and triggered world access."
+icon = "minecraft:nether_star"
+dependencies = ["showcase:necromancer", "showcase:warlord"]
+dependency_mode = "all"
+dependency_count = 2
+category = "World rules"
+color = "#554858"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "world", "world_rules"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

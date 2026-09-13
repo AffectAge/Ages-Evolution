@@ -1,0 +1,12 @@
+[[rules]]
+id = "showcase:lock_fluids_1006636915"
+effect = "lock"
+action = "submerge"
+priority = 911
+targets.fluids = ["minecraft:lava"]
+[[rules]]
+id = "showcase:lock_dimensions_1526768685"
+effect = "lock"
+action = "portal"
+priority = 912
+targets.dimensions = ["minecraft:the_nether"]

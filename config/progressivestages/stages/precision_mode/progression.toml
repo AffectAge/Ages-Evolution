@@ -1,0 +1,6 @@
+[cost]
+items = ["minecraft:quartz:32"]
+xp_levels = 6
+cooldown = "2s"
+refund_percent = 100
+bypass_requirements = false

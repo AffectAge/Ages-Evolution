@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:redstone_engineer"
+display_name = "Redstone Engineer"
+description = "Branch from Iron Engineer into machines and redstone output."
+icon = "minecraft:redstone"
+dependencies = ["showcase:iron_engineer"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Engineering"
+color = "#d64232"
+slot_group = "engineering_tiers"
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "specialist", "engineering"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

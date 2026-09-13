@@ -1,0 +1,12 @@
+[[item_modifiers]]
+id = "showcase:battle_medic/recovery"
+items = ["minecraft:shield"]
+while_holding = true
+with_stages = ["showcase:battle_medic"]
+priority = 430
+
+[[item_modifiers.effects]]
+id = "minecraft:regeneration"
+amplifier = 0
+duration_ticks = 100
+particles = false

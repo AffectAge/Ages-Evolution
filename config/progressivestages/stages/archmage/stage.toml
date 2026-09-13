@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:archmage"
+display_name = "Archmage"
+description = "Master Wizard through End research and hidden knowledge."
+icon = "minecraft:end_crystal"
+dependencies = ["showcase:wizard"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#c185ff"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

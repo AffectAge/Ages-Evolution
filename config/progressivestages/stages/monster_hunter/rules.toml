@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_entities_695626094"
+effect = "lock"
+action = "attack"
+priority = 432
+targets.entities = ["minecraft:warden"]

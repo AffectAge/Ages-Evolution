@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:berserker"
+display_name = "Berserker"
+description = "Evolve Warrior into a relentless axe fighter."
+icon = "minecraft:diamond_axe"
+dependencies = ["showcase:warrior"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#b33c32"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_beacon_1144669570"
+effect = "lock"
+action = "apply"
+priority = 264
+targets.beacon = ["minecraft:haste"]

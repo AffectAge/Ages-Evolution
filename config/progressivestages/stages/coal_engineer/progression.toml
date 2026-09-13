@@ -1,0 +1,6 @@
+[cost]
+items = ["minecraft:coal:32"]
+xp_levels = 0
+cooldown = "2s"
+refund_percent = 100
+bypass_requirements = false

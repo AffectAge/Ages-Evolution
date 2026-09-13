@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:battle_fury/power"
+items = ["tag:minecraft:swords"]
+contexts = ["either_hand"]
+with_stages = ["showcase:battle_fury"]
+priority = 810
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.attack_damage"
+amount = 2.0
+operation = "add_value"

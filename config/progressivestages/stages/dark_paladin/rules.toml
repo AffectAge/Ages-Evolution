@@ -1,0 +1,8 @@
+[[temporary_rules]]
+id = "showcase:dark_paladin/nether_blades"
+effect = "allow"
+lifetime = "live"
+action = "use"
+priority = 520
+targets.items = ["tag:minecraft:swords"]
+while = { type = "dimension", id = "minecraft:the_nether" }

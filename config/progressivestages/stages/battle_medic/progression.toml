@@ -1,0 +1,6 @@
+[cost]
+items = ["minecraft:golden_apple:8", "minecraft:diamond:8"]
+xp_levels = 18
+cooldown = "2s"
+refund_percent = 100
+bypass_requirements = false

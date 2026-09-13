@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_items_1768633981"
+effect = "lock"
+action = "use"
+priority = 212
+targets.items = ["minecraft:bow"]

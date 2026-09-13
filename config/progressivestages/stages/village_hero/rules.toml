@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_professions_1244251878"
+effect = "lock"
+action = "trade"
+priority = 813
+targets.professions = ["minecraft:weaponsmith"]

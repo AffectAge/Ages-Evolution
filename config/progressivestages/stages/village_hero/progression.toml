@@ -1,0 +1,12 @@
+[[grants]]
+id = "showcase:grant_kill_vindicator_12"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:vindicator", count = 12 }
+
+[rewards]
+effects = ["minecraft:hero_of_the_village:1800:0"]
+
+[revoke]
+on_death = true
+revoke_cascade = false

@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:excavation_mode/speed"
+items = ["tag:minecraft:shovels"]
+contexts = ["either_hand"]
+with_stages = ["showcase:excavation_mode"]
+priority = 752
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.movement_speed"
+amount = 0.04
+operation = "add_value"

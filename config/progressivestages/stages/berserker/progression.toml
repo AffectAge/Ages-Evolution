@@ -1,0 +1,8 @@
+[[grants]]
+id = "showcase:grant_kill_ravager_1"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:ravager", count = 1 }
+
+[rewards]
+effects = ["minecraft:strength:120:0"]

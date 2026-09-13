@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:siege_master"
+display_name = "Siege Master"
+description = "Merge Warlord and Deadeye into ranged destruction."
+icon = "minecraft:tnt"
+dependencies = ["showcase:warlord", "showcase:deadeye"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#b64c38"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_kill_with_phantom_bow_12"
+repeat = "once"
+scope = "player"
+condition = { type = "kill_with_item", id = "minecraft:phantom", with = "minecraft:bow", count = 12 }
+
+[rewards]
+items = ["minecraft:spectral_arrow:24"]
+xp_levels = 6

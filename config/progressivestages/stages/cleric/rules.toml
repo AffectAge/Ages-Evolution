@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_brewing_1134452545"
+effect = "lock"
+action = "brew"
+priority = 261
+targets.brewing = ["minecraft:strong_healing"]

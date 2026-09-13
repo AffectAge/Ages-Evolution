@@ -1,0 +1,8 @@
+[[drop_modifiers]]
+id = "showcase:netherite_engineer/debris_yield"
+blocks = ["minecraft:ancient_debris"]
+drops = ["minecraft:ancient_debris"]
+tools = ["tag:minecraft:pickaxes"]
+multiply = 2.0
+priority = 620
+exclusive = true

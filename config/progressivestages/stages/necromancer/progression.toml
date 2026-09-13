@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_kill_wither_skeleton_25"
+repeat = "once"
+scope = "player"
+condition = { type = "kill", id = "minecraft:wither_skeleton", count = 25 }
+
+[rewards]
+items = ["minecraft:wither_skeleton_skull:1"]
+xp_levels = 5

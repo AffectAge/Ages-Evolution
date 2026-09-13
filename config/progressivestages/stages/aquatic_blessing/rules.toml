@@ -1,0 +1,15 @@
+[abilities]
+locked = ["swim"]
+
+[[item_modifiers]]
+id = "showcase:aquatic_blessing/breath"
+items = ["minecraft:heart_of_the_sea"]
+while_holding = true
+with_stages = ["showcase:aquatic_blessing"]
+priority = 812
+
+[[item_modifiers.effects]]
+id = "minecraft:water_breathing"
+amplifier = 0
+duration_ticks = 120
+particles = false

@@ -1,0 +1,8 @@
+[[drop_modifiers]]
+id = "showcase:redstone_engineer/redstone_yield"
+blocks = ["tag:c:ores/redstone"]
+drops = ["minecraft:redstone"]
+tools = ["tag:minecraft:pickaxes"]
+multiply = 1.5
+priority = 530
+exclusive = false

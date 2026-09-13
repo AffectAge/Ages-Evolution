@@ -1,0 +1,12 @@
+[[rules]]
+id = "showcase:warrior/swords"
+effect = "lock"
+action = "use"
+priority = 211
+viewer = "hide"
+targets.items = ["tag:minecraft:swords"]
+
+[[rules.exceptions]]
+effect = "exclude"
+priority = 311
+targets.items = ["minecraft:wooden_sword"]

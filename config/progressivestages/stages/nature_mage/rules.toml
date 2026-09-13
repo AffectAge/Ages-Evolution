@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_loot_946275327"
+effect = "lock"
+action = "generate"
+priority = 435
+targets.loot = ["minecraft:chests/jungle_temple"]

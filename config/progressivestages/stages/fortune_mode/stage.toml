@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:fortune_mode"
+display_name = "Fortune Mode"
+description = "A mutually exclusive mining mode that favors raw output."
+icon = "minecraft:enchanted_book"
+dependencies = ["showcase:coal_engineer"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Mining modes"
+color = "#e0b84c"
+slot_group = "mining_modes"
+slot_limit = 1
+slot_policy = "replace_oldest"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "specialist", "mining_modes"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

@@ -1,0 +1,5 @@
+[[grants]]
+id = "showcase:grant_item_possession_obsidian_10"
+repeat = "once"
+scope = "player"
+condition = { type = "item_possession", id = "minecraft:obsidian", count = 10 }

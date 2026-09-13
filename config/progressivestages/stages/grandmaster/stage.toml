@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:grandmaster"
+display_name = "Grandmaster"
+description = "Own any three mastery hybrid engineering or world paths to complete the showcase."
+icon = "minecraft:nether_star"
+dependencies = ["showcase:archmage", "showcase:necromancer", "showcase:oracle", "showcase:vanguard", "showcase:warlord", "showcase:templar", "showcase:deadeye", "showcase:wildspeaker", "showcase:pathfinder", "showcase:spellblade", "showcase:dark_paladin", "showcase:battle_medic", "showcase:arcane_archer", "showcase:monster_hunter", "showcase:holy_ranger", "showcase:shadow_scout", "showcase:nature_mage", "showcase:siege_master", "showcase:quantum_engineer", "showcase:end_protocol"]
+dependency_mode = "at_least"
+dependency_count = 3
+category = "Finale"
+color = "#f7bf43"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "finale"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

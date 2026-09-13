@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:dark_paladin"
+display_name = "Dark Paladin"
+description = "Merge Warlock and Paladin into a Nether guardian."
+icon = "minecraft:netherite_sword"
+dependencies = ["showcase:warlock", "showcase:paladin"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#7f4c69"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

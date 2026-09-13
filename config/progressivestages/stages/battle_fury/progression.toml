@@ -1,0 +1,10 @@
+[cost]
+items = ["minecraft:blaze_powder:8"]
+xp_levels = 2
+cooldown = "2s"
+refund_percent = 100
+bypass_requirements = false
+
+[revoke]
+on_death = true
+revoke_cascade = false

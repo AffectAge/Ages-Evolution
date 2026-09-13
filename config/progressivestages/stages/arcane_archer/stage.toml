@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:arcane_archer"
+display_name = "Arcane Archer"
+description = "Merge Wizard and Marksman into mobile ranged magic."
+icon = "minecraft:tipped_arrow"
+dependencies = ["showcase:wizard", "showcase:marksman"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#6aa9c8"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

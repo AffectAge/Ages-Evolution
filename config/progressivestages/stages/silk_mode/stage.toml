@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:silk_mode"
+display_name = "Silk Mode"
+description = "Buying this mode replaces the currently active mining mode."
+icon = "minecraft:glass"
+dependencies = ["showcase:coal_engineer"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Mining modes"
+color = "#d5f1ed"
+slot_group = "mining_modes"
+slot_limit = 1
+slot_policy = "replace_oldest"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "specialist", "mining_modes"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_dimensions_1731133248"
+effect = "lock"
+action = "teleport"
+priority = 434
+targets.dimensions = ["minecraft:the_end"]

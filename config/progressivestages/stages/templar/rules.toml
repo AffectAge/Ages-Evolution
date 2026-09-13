@@ -1,0 +1,14 @@
+[abilities]
+locked = ["climb"]
+
+[[item_modifiers]]
+id = "showcase:templar/health"
+items = ["minecraft:shield"]
+contexts = ["either_hand"]
+with_stages = ["showcase:templar"]
+priority = 325
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.max_health"
+amount = 4.0
+operation = "add_value"

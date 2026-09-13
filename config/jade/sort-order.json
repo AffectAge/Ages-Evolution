@@ -58,5 +58,7 @@
   "minecraft:total_enchantment_power": null,
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
-  "minecraft:zombie_villager": null
+  "minecraft:zombie_villager": null,
+  "progressivestages:stage_lock": null,
+  "progressivestages:stage_lock_entity": null
 }

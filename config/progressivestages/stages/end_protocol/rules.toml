@@ -1,0 +1,11 @@
+[abilities]
+locked = ["jump"]
+
+[[temporary_rules]]
+id = "showcase:end_protocol/end_pickaxe"
+effect = "allow"
+lifetime = "live"
+action = "use"
+priority = 950
+targets.items = ["minecraft:diamond_pickaxe"]
+while = { type = "dimension", id = "minecraft:the_end" }

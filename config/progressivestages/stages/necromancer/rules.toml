@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_mobs_1822114240"
+effect = "lock"
+action = "spawn"
+priority = 321
+targets.mobs = ["minecraft:phantom"]

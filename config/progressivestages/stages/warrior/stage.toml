@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:warrior"
+display_name = "Warrior"
+description = "A beginner path for armor direct combat and defensive abilities."
+icon = "minecraft:iron_sword"
+dependencies = []
+dependency_mode = "all"
+dependency_count = 1
+category = "Core paths"
+color = "#d65c4a"
+slot_group = "beginner_paths"
+slot_limit = 2
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "core_paths"]
+
+[display]
+frame = "task"
+reveal = "always"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

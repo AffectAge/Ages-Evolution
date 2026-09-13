@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:aquatic_blessing"
+display_name = "Aquatic Blessing"
+description = "A temporary swim ability earned through the Tactical Fishing advancement."
+icon = "minecraft:heart_of_the_sea"
+dependencies = ["showcase:ranger"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Temporary power"
+color = "#4a9ac4"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = "20m"
+hidden = false
+scope = "team"
+tags = ["showcase", "temporary", "temporary_power"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

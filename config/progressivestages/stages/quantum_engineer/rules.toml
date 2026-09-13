@@ -1,0 +1,8 @@
+[[drop_modifiers]]
+id = "showcase:quantum_engineer/ore_yield"
+blocks = ["tag:c:ores"]
+drops = ["tag:c:raw_materials"]
+tools = ["tag:minecraft:pickaxes"]
+multiply = 1.25
+priority = 700
+exclusive = false

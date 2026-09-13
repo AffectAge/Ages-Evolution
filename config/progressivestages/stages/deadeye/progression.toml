@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_kill_with_stray_crossbow_24"
+repeat = "once"
+scope = "player"
+condition = { type = "kill_with_item", id = "minecraft:stray", with = "minecraft:crossbow", count = 24 }
+
+[rewards]
+items = ["minecraft:spectral_arrow:32"]
+xp_levels = 4

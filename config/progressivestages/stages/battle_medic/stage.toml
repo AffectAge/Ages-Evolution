@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:battle_medic"
+display_name = "Battle Medic"
+description = "Merge Vanguard and Cleric into armored support."
+icon = "minecraft:enchanted_golden_apple"
+dependencies = ["showcase:vanguard", "showcase:cleric"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#db7d8d"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

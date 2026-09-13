@@ -1,0 +1,11 @@
+[[item_modifiers]]
+id = "showcase:spellblade/blade"
+items = ["tag:minecraft:swords"]
+contexts = ["either_hand"]
+with_stages = ["showcase:spellblade"]
+priority = 420
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.attack_damage"
+amount = 4.0
+operation = "add_value"

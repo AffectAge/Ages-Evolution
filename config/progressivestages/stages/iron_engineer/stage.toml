@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:iron_engineer"
+display_name = "Iron Engineer"
+description = "Keep Coal Engineer active and add an iron yield bonus."
+icon = "minecraft:iron_ingot"
+dependencies = ["showcase:coal_engineer"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Engineering"
+color = "#b9b9b9"
+slot_group = "engineering_tiers"
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "specialist", "engineering"]
+
+[display]
+frame = "goal"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

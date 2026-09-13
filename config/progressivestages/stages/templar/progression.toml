@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_advancement_adventure/hero_of_the_village_1"
+repeat = "once"
+scope = "player"
+condition = { type = "advancement", id = "minecraft:adventure/hero_of_the_village", count = 1 }
+
+[rewards]
+items = ["minecraft:gold_ingot:8"]
+xp_levels = 6

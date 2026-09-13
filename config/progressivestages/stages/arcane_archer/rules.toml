@@ -1,0 +1,14 @@
+[abilities]
+locked = ["elytra"]
+
+[[item_modifiers]]
+id = "showcase:arcane_archer/speed"
+items = ["minecraft:bow"]
+contexts = ["either_hand"]
+with_stages = ["showcase:arcane_archer"]
+priority = 431
+
+[[item_modifiers.attributes]]
+id = "minecraft:generic.movement_speed"
+amount = 0.05
+operation = "add_value"

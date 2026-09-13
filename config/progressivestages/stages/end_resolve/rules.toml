@@ -1,0 +1,8 @@
+[[temporary_rules]]
+id = "showcase:end_resolve/end_elytra"
+effect = "allow"
+lifetime = "live"
+action = "use"
+priority = 850
+targets.abilities = ["elytra"]
+while = { type = "dimension", id = "minecraft:the_end" }

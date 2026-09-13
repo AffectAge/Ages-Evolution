@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:diamond_engineer"
+display_name = "Diamond Engineer"
+description = "Keep earlier engineering buffs and double Fortune diamond drops only."
+icon = "minecraft:diamond_pickaxe"
+dependencies = ["showcase:iron_engineer"]
+dependency_mode = "all"
+dependency_count = 1
+category = "Engineering"
+color = "#47d7d7"
+slot_group = "engineering_tiers"
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "specialist", "engineering"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

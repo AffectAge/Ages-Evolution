@@ -1,0 +1,25 @@
+[schema]
+version = 4
+
+[stage]
+id = "showcase:monster_hunter"
+display_name = "Monster Hunter"
+description = "Merge Berserker and Beastmaster for dangerous hunts."
+icon = "minecraft:crossbow"
+dependencies = ["showcase:berserker", "showcase:beastmaster"]
+dependency_mode = "all"
+dependency_count = 2
+category = "Hybrid paths"
+color = "#9b6445"
+slot_group = ""
+slot_limit = 0
+slot_policy = "deny"
+duration = ""
+hidden = false
+scope = "team"
+tags = ["showcase", "class", "hybrid_paths"]
+
+[display]
+frame = "challenge"
+reveal = "dependencies"
+background = "minecraft:textures/gui/advancements/backgrounds/stone.png"

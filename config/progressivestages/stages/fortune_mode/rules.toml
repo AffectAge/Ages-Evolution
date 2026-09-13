@@ -1,0 +1,8 @@
+[[drop_modifiers]]
+id = "showcase:fortune_mode/lapis_yield"
+blocks = ["tag:c:ores/lapis"]
+drops = ["minecraft:lapis_lazuli"]
+tools = ["tag:minecraft:pickaxes"]
+multiply = 2.0
+priority = 750
+exclusive = true

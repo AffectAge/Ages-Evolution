@@ -1,0 +1,6 @@
+[cost]
+items = ["minecraft:diamond_sword:1", "minecraft:lapis_lazuli:24"]
+xp_levels = 12
+cooldown = "2s"
+refund_percent = 100
+bypass_requirements = false

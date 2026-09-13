@@ -1,0 +1,6 @@
+[[rules]]
+id = "showcase:lock_trades_795235971"
+effect = "lock"
+action = "purchase"
+priority = 322
+targets.trades = ["minecraft:enchanted_book"]

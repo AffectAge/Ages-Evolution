@@ -1,0 +1,9 @@
+[[grants]]
+id = "showcase:grant_advancement_adventure/adventuring_time_1"
+repeat = "once"
+scope = "player"
+condition = { type = "advancement", id = "minecraft:adventure/adventuring_time", count = 1 }
+
+[rewards]
+items = ["minecraft:experience_bottle:16"]
+xp_levels = 8

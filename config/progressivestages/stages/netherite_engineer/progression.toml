@@ -1,0 +1,6 @@
+[cost]
+items = ["minecraft:netherite_ingot:4"]
+xp_levels = 20
+cooldown = "2s"
+refund_percent = 100
+bypass_requirements = false
