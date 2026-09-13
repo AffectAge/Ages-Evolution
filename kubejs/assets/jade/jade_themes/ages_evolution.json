@@ -1,0 +1,61 @@
+{
+	"version": 100,
+	"tooltipStyle": {
+		"sprite": "jade:ages_evolution",
+		"padding": [
+			6,
+			7,
+			6,
+			6
+		],
+		"boxProgressOffset": [
+			1,
+			-2,
+			1,
+			2
+		],
+		"boxProgressColors": {
+			"normal": "#007FBD",
+			"failure": "#9C021C"
+		}
+	},
+	"nestedBoxStyle": {
+		"borderColor": [
+			"#007FBD",
+			"#007FBD",
+			"#007FBD",
+			"#007FBD"
+		],
+		"borderWidth": 1
+	},
+	"viewGroupStyle": {
+		"backgroundColor": "#2A425ACC",
+		"borderColor": [
+			"#007FBD",
+			"#007FBD",
+			"#007FBD",
+			"#007FBD"
+		],
+		"borderWidth": 0.75
+	},
+	"text": {
+		"colors": {
+			"title": "#E8F4FA",
+			"normal": "#E8F4FA",
+			"info": "#5FD7FF",
+			"success": "#35B97A",
+			"warning": "#E5B962",
+			"danger": "#9C021C",
+			"failure": "#9B6DFF"
+		},
+		"shadow": true,
+		"modNameStyle": {
+			"italic": false
+		}
+	},
+	"changeOpacity": 1,
+	"changeRoundCorner": false,
+	"autoEnable": true,
+	"lightColorScheme": false,
+	"iconSlotInflation": -2
+}
