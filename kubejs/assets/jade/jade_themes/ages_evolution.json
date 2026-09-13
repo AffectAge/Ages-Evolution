@@ -9,10 +9,10 @@
 			6
 		],
 		"boxProgressOffset": [
-			1,
-			-2,
-			1,
-			2
+			0,
+			0,
+			0,
+			0
 		],
 		"boxProgressColors": {
 			"normal": "#007FBD",
