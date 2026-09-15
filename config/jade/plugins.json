@@ -62,6 +62,14 @@
     "entity": true,
     "entity_variant": true
   },
+  "historystages": {
+    "pedestal_booster": true,
+    "locked_entity_item": true,
+    "locked_block": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -72,9 +80,5 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
-  },
-  "progressivestages": {
-    "stage_lock": true,
-    "stage_lock_entity": true
   }
 }

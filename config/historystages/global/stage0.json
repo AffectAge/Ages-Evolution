@@ -1,0 +1,38 @@
+{
+  "display_name": "StoneAge",
+  "mode": "default",
+  "research_time": 20,
+  "min_pedestal_tier": 1,
+  "pedestal_tier_mode": "min",
+  "items": [
+    "minecraft:stone"
+  ],
+  "tags": [],
+  "mods": [],
+  "mod_exceptions": [],
+  "fluids": [],
+  "recipes": [],
+  "dimensions": [],
+  "structures": {
+    "structures": []
+  },
+  "biomes": {
+    "biomes": []
+  },
+  "zones": [],
+  "icon": "historystages:research_pedestal_tier_4",
+  "entities": {
+    "spawnlock": [
+      "minecraft:zombie"
+    ],
+    "attacklock": [],
+    "interactionlock": [],
+    "modLinked": []
+  },
+  "trades": {
+    "offers": [],
+    "professions": [],
+    "levels": []
+  },
+  "dependencies": []
+}
