@@ -70,7 +70,11 @@
     "item:minecraft:diorite",
     "item:minecraft:bamboo_door"
   ],
-  "craft_history": [],
+  "craft_history": [
+    "minecraft:oak_planks",
+    "minecraft:oak_wood",
+    "minecraft:crafting_table"
+  ],
   "recipe_defaults": {
     "added": [],
     "tags": {},

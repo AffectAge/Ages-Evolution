@@ -1,4 +1,8 @@
 {
+  "eclipticseasons:animal": null,
+  "eclipticseasons:cauldron": null,
+  "eclipticseasons:crop": null,
+  "eclipticseasons:greenhouse_core": null,
   "historystages:locked_block": null,
   "historystages:locked_entity_item": null,
   "historystages:pedestal_booster": null,

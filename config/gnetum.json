@@ -8,8 +8,8 @@
   "downscale": {
     "value": "OFF"
   },
-  "numberOfPasses": 4,
-  "maxFps": 60,
+  "numberOfPasses": 5,
+  "maxFps": 50,
   "screenMaxFps": 20,
   "mapVanillaElements": {
     "minecraft:boss_overlay": {
@@ -90,6 +90,12 @@
       },
       "pass": 3
     },
+    "dsurround:layer/overlaymanager": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "minecraft:sleep_overlay": {
       "enabled": {
         "value": "AUTO"
@@ -149,6 +155,12 @@
       "pass": 4
     },
     "jade": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 4
+    },
+    "creativecore": {
       "enabled": {
         "value": "AUTO"
       },
