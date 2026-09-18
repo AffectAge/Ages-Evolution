@@ -20,3 +20,5 @@ emi.json
 /config/inventory-particles/cache
 /dynamic-resource-pack-cache
 TrashSlotSaveState.json
+config/inventory-particles/cache/eclipticseasons/atlas.png
+config/iris.properties

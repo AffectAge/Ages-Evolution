@@ -20,7 +20,7 @@ drop_hanging_roots = false
 #treephysics.config.rootless_tree_detection.tooltip
 rootless_tree_detection = true
 #treephysics.config.requires_axe.tooltip
-requires_axe = true
+requires_axe = false
 #treephysics.config.prevent_interacting_with_trees.tooltip
 prevent_interacting_with_trees = false
 #treephysics.config.leaf_walking_behavior.tooltip

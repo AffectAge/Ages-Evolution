@@ -38,6 +38,7 @@
     }
   ],
   "lookup_history": [
+    "item:legendarysurvivaloverhaul:heat_resistance_ring",
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}}",
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}",
     "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:sharpness\":5}}}",

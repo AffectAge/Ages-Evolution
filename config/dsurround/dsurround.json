@@ -69,6 +69,10 @@
     "enableBiomeFog": true,
     "enableWeatherFog": true
   },
+  "musicManagerOptions": {
+    "replaceMusicManager": true,
+    "reduceWaitTime": 0
+  },
   "otherOptions": {
     "playRandomSoundOnStartup": true
   }
