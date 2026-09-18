@@ -38,6 +38,7 @@
     }
   ],
   "lookup_history": [
+    "mob_effect:minecraft:fire_resistance",
     "item:legendarysurvivaloverhaul:heat_resistance_ring",
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}}",
     "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}",

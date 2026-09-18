@@ -12,18 +12,6 @@
   "maxFps": 50,
   "screenMaxFps": 20,
   "mapVanillaElements": {
-    "minecraft:boss_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "minecraft:scoreboard_sidebar": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
     "minecraft:selected_item_name": {
       "enabled": {
         "value": "AUTO"
@@ -35,6 +23,60 @@
         "value": "AUTO"
       },
       "pass": 2
+    },
+    "xaeroworldmap:crosshair_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 4
+    },
+    "minecraft:overlay_message": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:subtitle_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:sleep_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "loot_journal:pickup_component": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:jump_meter": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:experience_level": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
+    },
+    "minecraft:boss_overlay": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "minecraft:scoreboard_sidebar": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
     },
     "minecraft:hotbar": {
       "enabled": {
@@ -48,11 +90,11 @@
       },
       "pass": 2
     },
-    "minecraft:overlay_message": {
+    "inventoryhud:armor": {
       "enabled": {
         "value": "AUTO"
       },
-      "pass": 3
+      "pass": 2
     },
     "minecraft:debug_overlay": {
       "enabled": {
@@ -72,17 +114,29 @@
       },
       "pass": 1
     },
-    "minecraft:subtitle_overlay": {
+    "inventoryhud:potion": {
       "enabled": {
         "value": "AUTO"
       },
-      "pass": 3
+      "pass": 2
+    },
+    "inventoryhud:inventory": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 2
     },
     "minecraft:experience_bar": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 2
+    },
+    "xaerohud:hud": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
     },
     "minecraft:saving_indicator": {
       "enabled": {
@@ -96,35 +150,11 @@
       },
       "pass": 1
     },
-    "minecraft:sleep_overlay": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 3
-    },
-    "loot_journal:pickup_component": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
     "minecraft:title": {
       "enabled": {
         "value": "AUTO"
       },
       "pass": 3
-    },
-    "minecraft:jump_meter": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
-    },
-    "minecraft:experience_level": {
-      "enabled": {
-        "value": "AUTO"
-      },
-      "pass": 2
     },
     "minecraft:tab_list": {
       "enabled": {

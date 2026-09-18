@@ -9,7 +9,6 @@ options.txt
 /crash-reports
 command_history.txt
 /local
-/journeymap
 /bivrik
 /.sable
 /screenshots
@@ -22,3 +21,6 @@ emi.json
 TrashSlotSaveState.json
 config/inventory-particles/cache/eclipticseasons/atlas.png
 config/iris.properties
+/journeymap/data
+/xaero
+/XaeroWaypoints_BACKUP240807
