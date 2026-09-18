@@ -32,7 +32,7 @@
 	#(ForceChunkRenderUpdate) A more thorough reload that refreshes all chunk sections periodically.
 	EnhancementChunkRenderUpdate = false
 	#Optimized rendering: Cull the top face of a block if it is hidden by a snow model.
-	CullTopFaceWithSnow = false
+	CullTopFaceWithSnow = true
 	#Refreshes the renderer state immediately after the player wakes up.
 	ResetRendererAfterSleep = false
 	#Use standard Vanilla light/sky rules to determine if snow should fall in a location.

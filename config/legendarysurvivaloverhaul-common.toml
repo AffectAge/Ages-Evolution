@@ -528,14 +528,14 @@
 	# How much of Additional Health a player can accumulate. 2 Heath means a full heart.
 	# Default: 20.0
 	# Range: 0.0 ~ 10000.0
-	"Maximum Additional Health" = 100.0
+	"Maximum Additional Health" = 40.0
 
 	[health-overhaul.shield-health]
 		# How much of Shield Health a player can accumulate. 2 Shield Heath means a full shield.
 		# Shield Health are lost when the player suffers damages and can't regenerate. Works similarly as the Minecraft Absorption.
 		# Default: 20.0
 		# Range: 1.0 ~ 10000.0
-		"Maximum Shield Health" = 100.0
+		"Maximum Shield Health" = 40.0
 		# Override the absorption effect by a shield health increase of 2.
 		# The absorption is typically given by the Golden Apple.
 		"Absorption Effect Override" = true

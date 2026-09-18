@@ -16,3 +16,7 @@ command_history.txt
 emi.json
 /config/attributefix/sable
 /.physics_mod_cache
+/config/inventory-particles/cache
+/config/inventory-particles/cache
+/dynamic-resource-pack-cache
+TrashSlotSaveState.json

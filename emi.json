@@ -38,6 +38,14 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:strong_healing\"}}",
+    "item:minecraft:potion{\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}",
+    "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:sharpness\":5}}}",
+    "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:quick_charge\":2}}}",
+    "item:minecraft:enchanted_book{\"minecraft:stored_enchantments\":{levels:{\"minecraft:protection\":3}}}",
+    "mob_effect:legendarysurvivaloverhaul:cold_immunity",
+    "mob_effect:minecraft:trial_omen",
+    "item:minecraft:painting{\"minecraft:entity_data\":{id:\"minecraft:painting\",variant:\"minecraft:aztec\"}}",
     "item:legendarysurvivaloverhaul:heart_fragment",
     "item:legendarysurvivaloverhaul:heart_container",
     "item:minecraft:snow",

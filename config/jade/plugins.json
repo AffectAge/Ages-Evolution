@@ -83,5 +83,11 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "corpse": {
+    "corpse": true
+  },
+  "balm": {
+    "jade": true
   }
 }
