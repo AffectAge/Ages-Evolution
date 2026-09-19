@@ -528,7 +528,7 @@
 	# How much of Additional Health a player can accumulate. 2 Heath means a full heart.
 	# Default: 20.0
 	# Range: 0.0 ~ 10000.0
-	"Maximum Additional Health" = 20.0
+	"Maximum Additional Health" = 34.0
 
 	[health-overhaul.shield-health]
 		# How much of Shield Health a player can accumulate. 2 Shield Heath means a full shield.

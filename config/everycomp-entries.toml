@@ -1,0 +1,102 @@
+		[types.wood_type.biomesoplenty]
+			fir = true
+			pine = true
+			maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.wood_type.regions_unexplored]
+			alpha = true
+			baobab = true
+			blackwood = true
+			brimwood = true
+			cobalt = true
+			cypress = true
+			dead = true
+			eucalyptus = true
+			joshua = true
+			kapok = true
+			larch = true
+			magnolia = true
+			maple = true
+			palm = true
+			pine = true
+			redwood = true
+			socotra = true
+			willow = true
+			wisteria = true
+			pink_bioshroom = true
+			yellow_bioshroom = true
+			blue_bioshroom = true
+			green_bioshroom = true
+
+		[types.leaves_type.biomesoplenty]
+			null = true
+			origin = true
+			flowering_oak = true
+			cypress = true
+			snowblossom = true
+			rainbow_birch = true
+			fir = true
+			pine = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			redwood = true
+			mahogany = true
+			jacaranda = true
+			palm = true
+			willow = true
+			dead = true
+			magic = true
+			umbran = true
+			hellbark = true
+			empyreal = true
+
+		[types.leaves_type.regions_unexplored]
+			alpha = true
+			apple_oak = true
+			ashen = true
+			bamboo = true
+			baobab = true
+			blackwood = true
+			blue_magnolia = true
+			brimwood = true
+			cypress = true
+			dead_pine = true
+			dead = true
+			eucalyptus = true
+			flowering = true
+			golden_larch = true
+			kapok = true
+			larch = true
+			magnolia = true
+			maple = true
+			orange_maple = true
+			palm = true
+			pine = true
+			pink_magnolia = true
+			red_maple = true
+			redwood = true
+			silver_birch = true
+			small_oak = true
+			socotra = true
+			white_magnolia = true
+			willow = true
+			sky_wisteria = true
+			lavender_wisteria = true
+			salmon_wisteria = true
+
+		[entries.wood_type.regions_unexplored]
+			branch = true
+
+		[entries.leaves_type.regions_unexplored]
+			shrub = true
