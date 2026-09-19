@@ -9,7 +9,7 @@
     "value": "OFF"
   },
   "numberOfPasses": 5,
-  "maxFps": 50,
+  "maxFps": 40,
   "screenMaxFps": 20,
   "mapVanillaElements": {
     "minecraft:selected_item_name": {
