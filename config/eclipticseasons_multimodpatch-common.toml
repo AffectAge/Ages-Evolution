@@ -7,3 +7,9 @@
 [xaerominimap]
 	Enable = true
 	SkipVanillaColorCheck = true
+
+#Diagonal Blocks
+[diagonalblocks]
+	Enable = true
+	fence = true
+	wall = true

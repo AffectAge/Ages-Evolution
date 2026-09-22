@@ -98,8 +98,5 @@
 		[entries.wood_type.regions_unexplored]
 			branch = true
 
-		[entries.wood_type.backpacked]
-			backpack_shelf = true
-
 		[entries.leaves_type.regions_unexplored]
 			shrub = true

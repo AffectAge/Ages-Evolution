@@ -7,7 +7,7 @@
   },
   // Controls the spawn rate of various particles. Default value for all is 1.
   "particle_rates": {
-    "leaves": 1.0,
-    "prismarite": 1.0
+    "leaves": 0.6,
+    "prismarite": 0.6
   }
 }

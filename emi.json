@@ -38,6 +38,8 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:suspicious_gravel",
+    "item:minecraft:suspicious_sand",
     "item:biomesoplenty:fir_log",
     "item:everycomp:ru/biomesoplenty/fir_branch",
     "item:constructionstick:netherite_stick",
