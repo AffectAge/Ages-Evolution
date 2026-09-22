@@ -1,0 +1,8 @@
+{
+  "animation_render_distance": "64",
+  "infinite_animation_render_distance": "112",
+  "door_speed": "0.8",
+  "trapdoor_speed": "0.8",
+  "fencegate_speed": "0.8",
+  "lectern_speed": "1.0"
+}
