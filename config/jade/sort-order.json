@@ -71,5 +71,16 @@
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
   "progressivestages:stage_lock": null,
-  "progressivestages:stage_lock_entity": null
+  "progressivestages:stage_lock_entity": null,
+  "revivalages:animal_power": null,
+  "revivalages:anvil": null,
+  "revivalages:construction_frame": null,
+  "revivalages:disabled_content": null,
+  "revivalages:drying_rack": null,
+  "revivalages:hand_grinding": null,
+  "revivalages:item_size": null,
+  "revivalages:primitive_devices": null,
+  "revivalages:stone_machines": null,
+  "revivalages:storage_barrel": null,
+  "revivalages:structural_integrity": null
 }

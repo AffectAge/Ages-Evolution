@@ -63,6 +63,18 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "revivalages": {
+    "drying_rack": true,
+    "storage_barrel": true,
+    "hand_grinding": true,
+    "stone_machines": true,
+    "anvil": true,
+    "primitive_devices": true,
+    "structural_integrity": true,
+    "item_size": true,
+    "disabled_content": true,
+    "construction_frame": true
+  },
   "jade_access": {
     "held_item": true,
     "sign": true,

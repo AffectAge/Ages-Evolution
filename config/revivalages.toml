@@ -1,0 +1,902 @@
+[itemSize]
+	#Largest item size accepted by normal and trapped chests.
+	#Allowed Values: TINY, VERY_SMALL, SMALL, NORMAL, LARGE, VERY_LARGE, HUGE
+	chestMaximumSize = "LARGE"
+	#Largest item size accepted by bundles.
+	#Allowed Values: TINY, VERY_SMALL, SMALL, NORMAL, LARGE, VERY_LARGE, HUGE
+	bundleMaximumSize = "NORMAL"
+	#Optional adapter overrides in the form block|namespace:id=size or item|namespace:id=size.
+	#An entry only has an effect when that container has an Item Size adapter.
+	containerOverrides = []
+
+	[itemSize.pitKiln]
+		#Largest item size that uses the normal Pit Kiln batch capacity.
+		#Allowed Values: TINY, VERY_SMALL, SMALL, NORMAL, LARGE, VERY_LARGE, HUGE
+		batchableMaximumSize = "LARGE"
+		#Maximum Pit Kiln input count for items at or below the batchable size.
+		# Default: 4
+		# Range: 1 ~ 64
+		batchSize = 4
+		#Maximum Pit Kiln input count for items above the batchable size.
+		# Default: 1
+		# Range: 1 ~ 64
+		oversizedBatchSize = 1
+
+	[itemSize.rejectionFeedback]
+		#Shows an action-bar explanation when a player tries to insert an oversized item.
+		actionbarEnabled = true
+		#Plays a short rejection sound when a player tries to insert an oversized item.
+		soundEnabled = true
+		#Minimum delay between repeated Item Size rejection feedback for one player.
+		# Default: 20
+		# Range: 0 ~ 200
+		cooldownTicks = 20
+		#Volume of the Item Size rejection sound.
+		# Default: 0.45
+		# Range: 0.0 ~ 2.0
+		soundVolume = 0.45
+		#Pitch of the Item Size rejection sound.
+		# Default: 0.6
+		# Range: 0.1 ~ 2.0
+		soundPitch = 0.6
+
+[carriedWeight]
+	#Ticks between authoritative player weight recalculations.
+	# Default: 1
+	# Range: 1 ~ 200
+	updateIntervalTicks = 1
+	#Maximum recursion depth for portable containers.
+	# Default: 8
+	# Range: 0 ~ 32
+	maximumRecursionDepth = 8
+	showTooltips = true
+	showHud = true
+
+	[carriedWeight.capacity]
+		# Default: 90000.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		base = 90000.0
+		# Default: 9000.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		perPocket = 9000.0
+
+	[carriedWeight.weights]
+		# Default: 120.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		bucket = 120.0
+		# Default: 60.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		bottle = 60.0
+		# Default: 240.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		block = 240.0
+		# Default: 90.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		ingotGemShard = 90.0
+		# Default: 10.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		nugget = 10.0
+		# Default: 50.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		genericItem = 50.0
+		# Default: 30000.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		technicalItem = 30000.0
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		containerContentsMultiplier = 0.5
+
+	[carriedWeight.formula]
+		# Default: 10.0
+		# Range: 0.0 ~ 10000.0
+		stackMultiplierCoefficient = 10.0
+		# Default: 1.25
+		# Range: 0.0 ~ 100.0
+		fireResistantMultiplier = 1.25
+		# Default: 1500.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		toolDurabilityDivisor = 1500.0
+		# Default: 300.0
+		# Range: 0.0 ~ 1000000.0
+		toolDurabilityWeight = 300.0
+		# Default: 300.0
+		# Range: 2.2250738585072014E-308 ~ 1.0E9
+		armorDurabilityDivisor = 300.0
+		# Default: 300.0
+		# Range: 0.0 ~ 1000000.0
+		armorDurabilityWeight = 300.0
+		# Default: 10.0
+		# Range: 0.0 ~ 1000000.0
+		armorProtectionWeight = 10.0
+		# Default: 10.0
+		# Range: 0.0 ~ 1000000.0
+		blockHardnessWeight = 10.0
+		# Default: 50.0
+		# Range: 0.0 ~ 1000000.0
+		blockResistanceWeight = 50.0
+		# Default: 10000.0
+		# Range: 0.0 ~ 1.0E9
+		blockResistanceWeightCap = 10000.0
+		# Default: 0.8
+		# Range: 0.0 ~ 100.0
+		transparentBlockMultiplier = 0.8
+		# Default: 50.0
+		# Range: 0.0 ~ 1000000.0
+		blockEntityWeight = 50.0
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		slabMultiplier = 0.5
+		# Default: 0.875
+		# Range: 0.0 ~ 100.0
+		stairsMultiplier = 0.875
+
+		[carriedWeight.formula.rarity]
+			# Default: 1.3
+			# Range: 0.0 ~ 100.0
+			common = 1.3
+			# Default: 1.95
+			# Range: 0.0 ~ 100.0
+			uncommon = 1.95
+			# Default: 2.6
+			# Range: 0.0 ~ 100.0
+			rare = 2.6
+			# Default: 3.9
+			# Range: 0.0 ~ 100.0
+			epic = 3.9
+
+		[carriedWeight.formula.food]
+			# Default: 0.8
+			# Range: 0.0 ~ 60.0
+			fastThresholdSeconds = 0.8
+
+	[carriedWeight.penalties]
+		#Applies gradual penalties before full overload.
+		realisticMode = false
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		strength = 1.0
+		# Default: 10
+		# Range: 1 ~ 100
+		overloadStepPercent = 10
+		# Default: 10
+		# Range: 1 ~ 255
+		maximumOverloadLevel = 10
+		# Default: 40
+		# Range: 1 ~ 20000
+		effectDurationTicks = 40
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		overloadBase = 0.5
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		overloadDamageBase = 0.25
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		perLevel = 0.05
+		# Default: 0.9
+		# Range: 0.0 ~ 1.0
+		maximumAttribute = 0.9
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		realisticStartFraction = 0.1
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		realisticSpeedRelief = 0.4
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		realisticAttackSpeedRelief = 0.3
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		realisticDamageRelief = 0.3
+		# Default: 0.6
+		# Range: 0.0 ~ 10.0
+		overloadJumpMultiplier = 0.6
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		overloadMinimumJumpMultiplier = 0.2
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		realisticMinimumJumpMultiplier = 0.3
+		# Default: 0.05
+		# Range: 0.0 ~ 10.0
+		realisticJumpBonus = 0.05
+
+	[carriedWeight.hud]
+		#Allowed Values: SPRITE, BAR
+		style = "SPRITE"
+		#Allowed Values: TOP_LEFT, TOP_RIGHT, CENTER_LEFT, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, HOTBAR_LEFT, HOTBAR_RIGHT, CENTER_HOTBAR, CUSTOM
+		position = "BOTTOM_RIGHT"
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		customX = 0.5
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		customY = 0.5
+		# Default: 16
+		# Range: 8 ~ 128
+		spriteSize = 16
+		# Default: 82
+		# Range: 16 ~ 512
+		barWidth = 82
+		# Default: 10
+		# Range: 2 ~ 128
+		barHeight = 10
+		#Allowed Values: NONE, CURRENT, MAX, PERCENT, REMAINING, CURRENT_MAX, CURRENT_MAX_PERCENT
+		textMode = "CURRENT_MAX"
+		#Allowed Values: ABOVE, BELOW, LEFT, RIGHT, INSIDE, CUSTOM
+		textPosition = "BELOW"
+		# Default: 0
+		# Range: -2048 ~ 2048
+		textXOffset = 0
+		# Default: 0
+		# Range: -2048 ~ 2048
+		textYOffset = 0
+		# Default: 16777215
+		# Range: 0 ~ 16777215
+		textColor = 16777215
+		textShadow = true
+		keepTextOnScreen = true
+
+[foodSpoilage]
+	#Base lifetime before an item's decay modifier is applied.
+	# Default: 633600
+	# Range: 1 ~ 9223372036854775807
+	baseLifetimeTicks = 633600
+	#Global decay speed. Larger values spoil food faster.
+	# Default: 1.0
+	# Range: 1.0E-4 ~ 10000.0
+	globalDecayMultiplier = 1.0
+	#Maximum creation-time difference accepted when perishable stacks merge.
+	# Default: 7200
+	# Range: 0 ~ 9223372036854775807
+	stackingWindowTicks = 7200
+	#Adds successfully skipped Overworld night time to the spoilage clock.
+	ageThroughSleep = true
+	#Ticks between inventory and open-container expiry sweeps.
+	# Default: 20
+	# Range: 1 ~ 1200
+	materializationCadenceTicks = 20
+	#Maximum portable-container nesting depth examined for spoilage.
+	# Default: 8
+	# Range: 0 ~ 32
+	maximumContainerDepth = 8
+	#Allowed Values: TIME_LEFT, OFF
+	tooltipMode = "TIME_LEFT"
+
+	[foodSpoilage.traits]
+		#Decay-speed multiplier for the dried trait.
+		# Default: 0.5
+		# Range: 1.0E-4 ~ 10000.0
+		driedMultiplier = 0.5
+		#Decay-speed multiplier while food is preserved in a sealed container.
+		# Default: 0.5
+		# Range: 1.0E-4 ~ 10000.0
+		preservedMultiplier = 0.5
+
+[diet]
+	# Default: 50.0
+	# Range: 0.0 ~ 100.0
+	startingValue = 50.0
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	nutritionMultiplier = 0.5
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	milkNutrition = 1.0
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	cakeSliceNutrition = 2.0
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	multiGroupReduction = 0.15
+	# Default: 0.075
+	# Range: 0.0 ~ 100.0
+	hungerDecayPerPoint = 0.075
+	# Default: 15.0
+	# Range: 0.0 ~ 100.0
+	deathPenalty = 15.0
+	# Default: 30.0
+	# Range: 0.0 ~ 100.0
+	deathMinimum = 30.0
+	#Ticks between authoritative diet effect recalculations.
+	# Default: 110
+	# Range: 1 ~ 20000
+	effectCadenceTicks = 110
+	#Duration assigned to refreshed diet effects.
+	# Default: 619
+	# Range: 1 ~ 100000
+	effectDurationTicks = 619
+	showTooltips = true
+	showInventoryButton = true
+
+	[diet.effects]
+		# Default: 10.0
+		# Range: 0.0 ~ 100.0
+		weaknessMaximum = 10.0
+		# Default: 20.0
+		# Range: 0.0 ~ 100.0
+		miningFatigueMaximum = 20.0
+		# Default: 80.0
+		# Range: 0.0 ~ 100.0
+		resistanceMinimum = 80.0
+		# Default: 90.0
+		# Range: 0.0 ~ 100.0
+		strengthMinimum = 90.0
+		# Default: 90.0
+		# Range: 0.0 ~ 100.0
+		toughnessMinimum = 90.0
+
+[primitiveTechnology]
+	#Exposes item and fluid capabilities on primitive devices.
+	automationEnabled = true
+	#Shows recipe progress and failure particles.
+	progressParticles = true
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	rawHideDropChance = 0.5
+	# Default: 2
+	# Range: 1 ~ 16
+	rawHideMaxDrops = 2
+	#Shows exact remaining uses on primitive tools and saw blades.
+	showDurabilityTooltips = true
+	#Shows translucent insertion and extraction previews on physical machine slots.
+	showInteractionPreviews = true
+	#Shows counts next to item stacks rendered in physical machine slots.
+	showPhysicalItemCounts = true
+
+	[primitiveTechnology.campfire]
+		# Default: 1800
+		# Range: > 1
+		cookTicks = 1800
+		# Default: 2400
+		# Range: > 1
+		burnTicksPerLog = 2400
+		# Default: 600
+		# Range: > 1
+		burnedFoodTicks = 600
+		# Default: 4
+		# Range: 1 ~ 8
+		fullSpeedFuelLevel = 4
+		rainExtinguishes = true
+		# Default: 200
+		# Range: > 1
+		rainExtinguishTicks = 200
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		ashChance = 0.25
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		playerBurnChance = 0.5
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		playerBurnDamage = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		entityBurnDamage = 1.0
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		floorIgnitionChance = 0.05
+		# Default: 3
+		# Range: 0 ~ 15
+		minimumLight = 3
+		# Default: 15
+		# Range: 0 ~ 15
+		maximumLight = 15
+
+	[primitiveTechnology.choppingBlock]
+		# Default: 6
+		# Range: > 1
+		woodTierChops = 6
+		# Default: 4
+		# Range: > 1
+		stoneTierChops = 4
+		# Default: 2
+		# Range: > 1
+		ironTierChops = 2
+		# Default: 2
+		# Range: > 1
+		diamondTierChops = 2
+		# Default: 1
+		# Range: > 0
+		woodTierOutput = 1
+		# Default: 2
+		# Range: > 0
+		stoneTierOutput = 2
+		# Default: 3
+		# Range: > 0
+		ironTierOutput = 3
+		# Default: 4
+		# Range: > 0
+		diamondTierOutput = 4
+		# Default: 16
+		# Range: > 1
+		chopsPerDamageStage = 16
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		woodChipsChance = 0.05
+		# Default: 1.5
+		# Range: 0.0 ~ 1000.0
+		exhaustionPerChop = 1.5
+		# Default: 1.5
+		# Range: 0.0 ~ 1000.0
+		exhaustionPerCraft = 1.5
+		# Default: 0.5
+		# Range: 0.0 ~ 1000.0
+		exhaustionPerChipScoop = 0.5
+		# Default: 3
+		# Range: 0 ~ 20
+		minimumHunger = 3
+		usesDurability = true
+
+	[primitiveTechnology.pitKiln]
+		# Default: 8
+		# Range: 1 ~ 64
+		maxStackSize = 8
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		durationMultiplier = 1.0
+		# Default: 0.5
+		# Range: 0.01 ~ 1.0
+		variableSpeedModifier = 0.5
+		rainExtinguishes = true
+		# Default: 200
+		# Range: > 1
+		rainExtinguishTicks = 200
+		#Allowed Values: TINY, VERY_SMALL, SMALL, NORMAL, LARGE, VERY_LARGE, HUGE
+		maxInputSize = "VERY_LARGE"
+
+	[primitiveTechnology.barrel]
+		# Default: 10000
+		# Range: > 1
+		capacity = 10000
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		durationMultiplier = 1.0
+		# Default: 20
+		# Range: > 0
+		rainFillInterval = 20
+		# Default: 2400
+		# Range: > 0
+		rainConversionInterval = 2400
+		# Default: 450
+		# Range: > 0
+		hotFluidTemperature = 450
+		holdsHotFluids = false
+		# Default: 64
+		# Range: 1 ~ 64
+		maxItemStackSize = 64
+
+	[primitiveTechnology.soakingPot]
+		# Default: 4000
+		# Range: > 1
+		capacity = 4000
+		# Default: 8
+		# Range: 1 ~ 64
+		maxStackSize = 8
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		durationMultiplier = 1.0
+		#Exposes Soaking Pot item and fluid capabilities.
+		allowAutomation = true
+		#Allows the Soaking Pot to retain fluids at or above hotFluidTemperature.
+		holdsHotFluids = false
+		# Default: 450
+		# Range: > 0
+		hotFluidTemperature = 450
+
+	[primitiveTechnology.tanningRack]
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		durationMultiplier = 1.0
+		# Default: 2400
+		# Range: > -1
+		rainRuinTicks = 2400
+
+	[primitiveTechnology.stoneMachines]
+		# Default: 64
+		# Range: 1 ~ 64
+		inputLimit = 64
+		# Default: 64
+		# Range: 1 ~ 64
+		fuelLimit = 64
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		fuelBurnTimeMultiplier = 1.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		airflowMultiplier = 1.0
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		airflowDrag = 0.02
+		#When true, a lit machine stays active briefly after input or fuel becomes unavailable.
+		keepHeat = false
+
+		[primitiveTechnology.stoneMachines.sawmill]
+			# Default: 3.0
+			# Range: 0.0 ~ 1000.0
+			activeBladeEntityDamage = 3.0
+			damageBlades = true
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			woodChipChance = 0.25
+			idleSoundEnabled = true
+			# Default: 0.5
+			# Range: 0.0 ~ 1000.0
+			idleSoundVolume = 0.5
+			recipeCompleteSoundEnabled = true
+			# Default: 0.75
+			# Range: 0.0 ~ 1000.0
+			recipeCompleteSoundVolume = 0.75
+
+		[primitiveTechnology.stoneMachines.oven]
+			# Default: 2400
+			# Range: > 1
+			foodCookTicks = 2400
+			# Default: 0.25
+			# Range: 0.0 ~ 1000.0
+			dryingDurationMultiplier = 0.25
+
+		[primitiveTechnology.stoneMachines.kiln]
+			# Default: 0.5
+			# Range: 0.0 ~ 1000.0
+			pitKilnDurationMultiplier = 0.5
+			# Default: 0.25
+			# Range: 0.0 ~ 1000.0
+			pitKilnFailureMultiplier = 0.25
+
+		[primitiveTechnology.stoneMachines.crucible]
+			# Default: 4000
+			# Range: > 1
+			capacity = 4000
+
+	[primitiveTechnology.anvil]
+		# Default: 64
+		# Range: > 1
+		hitsPerDamageStage = 64
+		# Default: 0.5
+		# Range: 0.0 ~ 1000.0
+		exhaustionPerHit = 0.5
+		# Default: 0.0
+		# Range: 0.0 ~ 1000.0
+		exhaustionPerCraft = 0.0
+		# Default: 3
+		# Range: 0 ~ 20
+		minimumHunger = 3
+		useToolDurability = true
+
+	[primitiveTechnology.pitBurn]
+		# Default: 27
+		# Range: 1 ~ 256
+		maximumConnectedPiles = 27
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		durationMultiplier = 1.0
+		# Default: 20
+		# Range: > 1
+		structureCheckInterval = 20
+		# Default: 100
+		# Range: > 1
+		invalidStructureGraceTicks = 100
+
+	[primitiveTechnology.ignition]
+		# Default: 80
+		# Range: > 1
+		flintAndTinderUseTicks = 80
+		# Default: 8
+		# Range: > 1
+		flintAndTinderMaxUses = 8
+		# Default: 20
+		# Range: > 0
+		flintAndTinderCooldownTicks = 20
+		woodTorchBurnsUp = true
+		woodTorchRainExtinguishes = true
+		# Default: 16800
+		# Range: > 0
+		woodTorchDuration = 16800
+		# Default: 4800
+		# Range: > 0
+		woodTorchDurationVariance = 4800
+		# Default: 200
+		# Range: > 1
+		woodTorchMinCheckInterval = 200
+		# Default: 380
+		# Range: > 1
+		woodTorchMaxCheckInterval = 380
+		# Default: 1000
+		# Range: > 1
+		woodTorchExtinguishingFluidCost = 1000
+		# Default: 1
+		# Range: > 0
+		woodTorchIgnitionDamage = 1
+		# Default: 1
+		# Range: > 0
+		woodTorchFireDamage = 1
+		# Default: 9
+		# Range: 0 ~ 15
+		woodTorchLight = 9
+
+	[primitiveTechnology.primitiveBuckets]
+		# Default: 8
+		# Range: > 1
+		woodenBucketMaxUses = 8
+		# Default: 1
+		# Range: 1 ~ 64
+		woodenBucketStackSize = 1
+		# Default: 450
+		# Range: > 0
+		woodenBucketHotTemperature = 450
+		# Default: 8
+		# Range: > 0
+		woodenBucketHotWearPerSecond = 8
+		# Default: 1
+		# Range: > 0
+		woodenBucketFullWearPerSecond = 1
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		woodenBucketHotPlayerDamagePerSecond = 2.0
+		woodenBucketMilkEnabled = true
+		woodenBucketDropFluidSourceWhenBroken = true
+		# Default: 12
+		# Range: > 1
+		clayBucketMaxUses = 12
+		# Default: 4
+		# Range: 1 ~ 64
+		clayBucketStackSize = 4
+		# Default: 450
+		# Range: > 0
+		clayBucketHotTemperature = 450
+		# Default: 4
+		# Range: > 0
+		clayBucketHotWearPerSecond = 4
+		# Default: 0
+		# Range: > 0
+		clayBucketFullWearPerSecond = 0
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		clayBucketHotPlayerDamagePerSecond = 2.0
+		clayBucketMilkEnabled = true
+		clayBucketDropFluidSourceWhenBroken = true
+		# Default: 20000
+		# Range: > 0
+		lavaFuelBurnTime = 20000
+
+	[primitiveTechnology.campfireEffects]
+		# Default: 12000
+		# Range: 0 ~ 24000
+		startTime = 12000
+		# Default: 23000
+		# Range: 0 ~ 24000
+		stopTime = 23000
+		# Default: 5
+		# Range: 1 ~ 32
+		range = 5
+		# Default: 0.5
+		# Range: 0.0 ~ 1000.0
+		comfortFoodBonus = 0.5
+		# Default: 100
+		# Range: > 1
+		restingRegenInterval = 100
+		# Default: 200
+		# Range: > 1
+		restingLevelInterval = 200
+		# Default: 6000
+		# Range: > 0
+		wellFedDuration = 6000
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		wellFedExhaustionModifier = 0.5
+		# Default: 6000
+		# Range: > 0
+		wellRestedDuration = 6000
+		# Default: 4
+		# Range: > 0
+		wellRestedAbsorptionHalfHearts = 4
+		# Default: 6000
+		# Range: > 0
+		focusedDuration = 6000
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		focusedXpBonus = 1.0
+
+[client]
+	#RGB color for interaction outlines, as six hexadecimal digits with an optional # prefix.
+	interactionOutlineColor = "007FBD"
+
+[dryingRack]
+	#Allows item-handler automation. Disabled by default to preserve manual early-game play.
+	automationEnabled = false
+	#Allows vertically stacked normal drying racks to act as ladders.
+	ladderEnabled = true
+	#Vertical climb speed for stacked normal drying racks.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	ladderClimbSpeed = 0.1
+	#Final speed multiplier for the crude drying rack.
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	crudeMultiplier = 1.0
+	#Final speed multiplier for the normal drying rack.
+	# Default: 1.35
+	# Range: 0.0 ~ 100.0
+	normalMultiplier = 1.35
+	#Duration multiplier applied to recipes processed by the crude drying rack.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	crudeBaseRecipeDurationModifier = 1.0
+	#Duration multiplier applied to every recipe processed by the normal drying rack.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	normalBaseRecipeDurationModifier = 1.0
+	#Additional duration multiplier for crude recipes inherited by the normal drying rack.
+	# Default: 1.0
+	# Range: 0.01 ~ 100.0
+	inheritedCrudeRecipeDurationModifier = 1.0
+	#Shows subtle happy-villager particles while a Drying Rack is making progress.
+	showProgressParticles = true
+	#Shows a translucent preview of the item targeted for insertion or removal.
+	showItemPreview = true
+	#Shows stack counts next to physical Drying Rack contents.
+	showItemCounts = true
+	#Shows the configured outline around the selected Drying Rack interaction area.
+	showInteractionBounds = true
+
+	[dryingRack.environment]
+		# Default: -1.0
+		# Range: -100.0 ~ 100.0
+		directRainSpeed = -1.0
+		# Default: 0.25
+		# Range: -100.0 ~ 100.0
+		indirectRainSpeed = 0.25
+		# Default: 2.0
+		# Range: -100.0 ~ 100.0
+		netherSpeed = 2.0
+		# Default: 1.0
+		# Range: -100.0 ~ 100.0
+		defaultSpeed = 1.0
+		# Default: 0.2
+		# Range: -100.0 ~ 100.0
+		hotBonus = 0.2
+		# Default: 0.2
+		# Range: -100.0 ~ 100.0
+		dryBonus = 0.2
+		# Default: -0.2
+		# Range: -100.0 ~ 100.0
+		coldPenalty = -0.2
+		# Default: -0.2
+		# Range: -100.0 ~ 100.0
+		wetPenalty = -0.2
+		# Default: 0.2
+		# Range: -100.0 ~ 100.0
+		fireBonus = 0.2
+		# Default: 2
+		# Range: 0 ~ 8
+		fireRadius = 2
+		# Default: 0.2
+		# Range: -100.0 ~ 100.0
+		daylightBonus = 0.2
+
+	[dryingRack.seasons]
+		#Applies configured bonuses from a supported season provider.
+		enabled = true
+		#Additive seasonal speed modifier. Zero disables this season's effect.
+		# Default: 0.1
+		# Range: -100.0 ~ 100.0
+		springBonus = 0.1
+		#Additive seasonal speed modifier. Zero disables this season's effect.
+		# Default: 0.3
+		# Range: -100.0 ~ 100.0
+		summerBonus = 0.3
+		#Additive seasonal speed modifier. Zero disables this season's effect.
+		# Default: -0.1
+		# Range: -100.0 ~ 100.0
+		autumnBonus = -0.1
+		#Additive seasonal speed modifier. Zero disables this season's effect.
+		# Default: -0.3
+		# Range: -100.0 ~ 100.0
+		winterBonus = -0.3
+
+[knapping]
+	screenParticles = true
+
+[constructionFrame]
+	#Durability consumed from the assembly tool after a successful assembly.
+	# Default: 1
+	# Range: 0 ~ 1024
+	toolDurabilityCost = 1
+
+	[animalPower.handGrindstone]
+		# Default: 18
+		# Range: 1 ~ 1200
+		rotationTicks = 18
+		# Default: 2
+		# Range: 1 ~ 1000
+		pointsPerRotation = 2
+		# Default: 0.1
+		# Range: 0.0 ~ 40.0
+		exhaustionPerRotation = 0.1
+
+	[structuralIntegrity.supportBeams]
+		# Default: 3
+		# Range: 1 ~ 16
+		verticalAutoStack = 3
+		# Default: 5
+		# Range: 1 ~ 32
+		horizontalMaxSpan = 5
+		# Default: 1
+		# Range: 0 ~ 1024
+		sawDamage = 1
+
+	[structuralIntegrity.collapses]
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		triggerChance = 0.1
+		# Default: 0.35
+		# Range: 0.0 ~ 1.0
+		fakeTriggerChance = 0.35
+		# Default: 0.55
+		# Range: 0.0 ~ 1.0
+		propagateChance = 0.55
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		explosionPropagateChance = 0.3
+		# Default: 3
+		# Range: 1 ~ 32
+		minimumRadius = 3
+		# Default: 16
+		# Range: 1 ~ 32
+		radiusVariance = 16
+		# Default: 10
+		# Range: 1 ~ 200
+		propagationInterval = 10
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		damagePerBlock = 2.0
+		# Default: 20
+		# Range: 0 ~ 1000
+		maximumDamage = 20
+
+	[structuralIntegrity.landslides]
+		# Default: 2
+		# Range: 0 ~ 200
+		delayTicks = 2
+		# Default: 0.8
+		# Range: 0.0 ~ 100.0
+		damagePerBlock = 0.8
+		# Default: 10
+		# Range: 0 ~ 1000
+		maximumDamage = 10
+
+	[structuralIntegrity.workBudget]
+		# Default: 65536
+		# Range: 256 ~ 1048576
+		maximumQueuedPositions = 65536
+		# Default: 4096
+		# Range: 16 ~ 65536
+		positionsPerTick = 4096
+
+	[structuralIntegrity.cameraShake]
+		# Default: 48.0
+		# Range: 0.0 ~ 256.0
+		radius = 48.0
+		# Default: 0.35
+		# Range: 0.0 ~ 10.0
+		warningStrength = 0.35
+		# Default: 18
+		# Range: 0 ~ 200
+		warningDurationTicks = 18
+		# Default: 1.25
+		# Range: 0.0 ~ 10.0
+		collapseStrength = 1.25
+		# Default: 36
+		# Range: 0 ~ 200
+		collapseDurationTicks = 36
+		# Default: 0.65
+		# Range: 0.0 ~ 10.0
+		propagationStrength = 0.65
+		# Default: 14
+		# Range: 0 ~ 200
+		propagationDurationTicks = 14
+		enabled = true
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		intensity = 1.0

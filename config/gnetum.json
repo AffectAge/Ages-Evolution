@@ -12,6 +12,12 @@
   "maxFps": 40,
   "screenMaxFps": 20,
   "mapVanillaElements": {
+    "revivalages:carried_weight": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 1
+    },
     "minecraft:selected_item_name": {
       "enabled": {
         "value": "AUTO"
@@ -186,9 +192,9 @@
     },
     "jade": {
       "enabled": {
-        "value": "AUTO"
+        "value": "OFF"
       },
-      "pass": 4
+      "pass": 5
     },
     "creativecore": {
       "enabled": {
