@@ -38,9 +38,14 @@
     }
   ],
   "lookup_history": [
-    "item:revivalages:log_pile",
-    "item:revivalages:barrel",
     "item:revivalages:construction_frame",
+    "item:gtceu:tungsten_steel_buzzsaw_blade",
+    "item:biomesoplenty:null_plant",
+    "item:biomesoplenty:liquid_null_bucket",
+    "item:gtceu:blacklight",
+    "item:revivalages:log_pile",
+    "item:gtceu:rubber_log",
+    "item:revivalages:barrel",
     "item:revivalages:stone_sawmill",
     "item:revivalages:pit_kiln",
     "item:minecraft:clay_ball",
