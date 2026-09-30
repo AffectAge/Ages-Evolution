@@ -20,7 +20,7 @@
 	#Maximum Distance to the player at which items in Blocks' filter slots will be displayed
 	# Default: 10.0
 	# Range: 1.0 ~ 3.4028234663852886E38
-	filterItemRenderDistance = 10.0
+	filterItemRenderDistance = 8.0
 	#.
 	#Choose the menu row that the Create config button appears on in the main menu
 	#Set to 0 to disable the button altogether
@@ -38,7 +38,7 @@
 	#Set to 0 to disable the button altogether
 	# Default: 3
 	# Range: 0 ~ 5
-	ingameMenuConfigButtonRow = 3
+	ingameMenuConfigButtonRow = 0
 	#.
 	#Offset the Create config button in the in-game menu by this many pixels on the X axis
 	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
@@ -81,28 +81,28 @@
 		overlayOffsetY = 0
 		#.
 		#Enable this to use your custom colors for the Goggle- and Hover- Overlay
-		customColorsOverlay = false
+		customColorsOverlay = true
 		#.
 		#The custom background color to use for the Goggle- and Hover- Overlays, if enabled
 		#[in Hex: #AaRrGgBb]
 		#[@cui:IntDisplay:#]
 		# Default: -267386864
 		# Range: > -2147483648
-		customBackgroundOverlay = -267386864
+		customBackgroundOverlay = -16777216
 		#.
 		#The custom top color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
 		#[in Hex: #AaRrGgBb]
 		#[@cui:IntDisplay:#]
 		# Default: 1347420415
 		# Range: > -2147483648
-		customBorderTopOverlay = 1347420415
+		customBorderTopOverlay = -436174915
 		#.
 		#The custom bot color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
 		#[in Hex: #AaRrGgBb]
 		#[@cui:IntDisplay:#]
 		# Default: 1344798847
 		# Range: > -2147483648
-		customBorderBotOverlay = 1344798847
+		customBorderBotOverlay = -436174915
 
 	#.
 	#Sound settings

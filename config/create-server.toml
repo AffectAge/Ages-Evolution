@@ -98,7 +98,7 @@
 	#Game ticks between Kinetic Blocks checking whether their source is still valid.
 	# Default: 60
 	# Range: > 5
-	kineticValidationFrequency = 60
+	kineticValidationFrequency = 80
 	#.
 	#multiplier used for calculating exhaustion from speed when a crank is turned.
 	# Default: 0.009999999776482582
@@ -142,7 +142,7 @@
 		#Game ticks between Fans checking for anything blocking their air flow.
 		# Default: 30
 		# Range: > 10
-		fanBlockCheckRate = 30
+		fanBlockCheckRate = 40
 		#.
 		#[in Revolutions per Minute]
 		#Rotation speed at which the maximum stats of fans are reached.
@@ -190,7 +190,7 @@
 		rollerFillDepth = 12
 		#.
 		#Whether minecart contraptions can be picked up in survival mode.
-		survivalContraptionPickup = true
+		survivalContraptionPickup = false
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
