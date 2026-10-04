@@ -38,9 +38,6 @@
 			blue_bioshroom = true
 			green_bioshroom = true
 
-		[types.wood_type.gtceu]
-			rubber = true
-
 		[types.leaves_type.biomesoplenty]
 			null = true
 			origin = true
@@ -97,9 +94,6 @@
 			sky_wisteria = true
 			lavender_wisteria = true
 			salmon_wisteria = true
-
-		[types.leaves_type.gtceu]
-			rubber = true
 
 		[entries.wood_type.regions_unexplored]
 			branch = true
